@@ -1,0 +1,9 @@
+div {
+    width: 1800px;
+    height:650px;
+    border: 1px solid grey;
+    background-color: lightyellow;
+    padding: 1em;
+    display:flex;
+    justify-content: space-between;
+}
