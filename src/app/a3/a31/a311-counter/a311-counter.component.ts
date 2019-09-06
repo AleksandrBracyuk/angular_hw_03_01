@@ -17,4 +17,10 @@ export class A311CounterComponent implements OnInit {
 
   @Input() counterValue: number = 0;
 
+  @Input('step') counterStep: number = 1;
+
+  increment() {
+    this.counterValue += this.counterStep;
+  }
+
 }
