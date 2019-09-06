@@ -12,4 +12,7 @@ export class A32Component implements OnInit {
   ngOnInit() {
   }
 
+  timerHandler1() { console.log('timerHandler1'); }
+  timerHandler2() { console.log('timerHandler2'); }
+
 }

@@ -18,6 +18,7 @@ import { A3Component } from './a3/a3.component';
 import { A31Component } from './a3/a31/a31.component';
 import { A32Component } from './a3/a32/a32.component';
 import { A311CounterComponent } from './a3/a31/a311-counter/a311-counter.component';
+import { A321TimerComponent } from './a3/a32/a321-timer/a321-timer.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { A311CounterComponent } from './a3/a31/a311-counter/a311-counter.compone
     A3Component,
     A31Component,
     A32Component,
-    A311CounterComponent
+    A311CounterComponent,
+    A321TimerComponent
   ],
   imports: [
     BrowserModule

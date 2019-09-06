@@ -1,1 +1,7 @@
-<p>a32 works!</p>
+<div>
+    <p>a32 works!</p>
+    <h6>Timer 1</h6>
+    <app-a321-timer (tick)="timerHandler1()"></app-a321-timer>
+    <h6>Timer 2</h6>
+    <app-a321-timer timerInterval="500" (tick)="timerHandler2()"></app-a321-timer>
+</div>
